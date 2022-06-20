@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_gravity="center"
+    android:layout_height="wrap_content">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:background="@drawable/background_views"
+            android:layout_height="match_parent">
+            <ImageView
+                android:id="@+id/im"
+                android:layout_width="343dp"
+                android:layout_height="355dp"
+                android:layout_centerInParent="true"
+                android:elevation="100dp"
+                android:src="@drawable/kubok" />
+            <TextView
+                android:elevation="100dp"
+                android:id="@+id/ts"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="45dp"
+                android:layout_marginBottom="161dp"
+                android:gravity="center"
+                android:text="YOU WIN"
+                android:textStyle="bold|italic"
+                android:textColor="#D81B60"
+                android:textSize="80dp" />
+            <TextView
+                android:elevation="100dp"
+                android:id="@+id/ta"
+                android:layout_below="@+id/im"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="You have answered all the questions"
+                android:textColor="#D81B60"
+                android:textSize="20dp"
+                android:textStyle="bold|italic"
+                android:layout_marginTop="20dp"
+                android:layout_centerHorizontal="true"
+                android:gravity="center"
+                />
+            <Button
+                android:id="@+id/go_to_menu"
+                android:text="@string/go_to_menu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_style"
+                android:layout_below="@+id/ta"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                />
+        </RelativeLayout>
+
+</RelativeLayout>

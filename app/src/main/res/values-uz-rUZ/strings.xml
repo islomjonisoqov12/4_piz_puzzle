@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">4 pics 1 word</string>
+    <string name="play">O`yin</string>
+    <string name="settings">Sozlamalar</string>
+    <string name="sound">Ovoz</string>
+    <string name="share">Ulashish</string>
+    <string name="level">Bosqich</string>
+    <string name="team_name">by Ajal studio</string>
+    <string name="resume">Davomidan</string>
+    <string name="new_game">Yangi o\'yin</string>
+    <string name="username">Foydalanuvchi nomi</string>
+    <string name="submit">Kiritish</string>
+    <string name="dialog">Dialog</string>
+    <string name="enter_username_or_name">Foydalanuvchi nomini kiriting</string>
+    <string name="dismiss">Chiqish</string>
+    <string name="mute_unmute">MUSIQA</string>
+    <string name="night_mode">Tungi rejim</string>
+    <string name="_0">0</string>
+    <string name="help">Yordam</string>
+    <string name="clean">O\'chirish</string>
+    <string name="a">A</string>
+    <string name="_1">1</string>
+    <string name="exit">Chiqish</string>
+    <string name="unmute_mute">MUSIQA</string>
+    <string name="go_to_menu">GO TO MENU</string>
+    <string name="difficulty">O\'YIN DARAJASI</string>
+    <string name="e_a_s_y">O S O N</string>
+    <string name="m_e_d_i_u_m">O \' R T A C H A</string>
+    <string name="h_a_r_d">Q I Y I N</string>
+    <string name="ok">OK</string>
+</resources>
