@@ -137,25 +137,14 @@
     <androidx.appcompat.widget.AppCompatImageView
         android:id="@+id/volume_set"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/music_set"
         android:layout_marginBottom="20dp"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"                                          
         android:src="@drawable/ic_baseline_volume_up_24"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:minWidth="50dp"
         android:minHeight="50dp"
-        />
-    <androidx.appcompat.widget.AppCompatImageView
-        android:id="@+id/music_set"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/volume_set"
-        android:layout_marginBottom="20dp"
-        android:src="@drawable/ic_baseline_music_note_24"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:minWidth="50dp"
-        android:minHeight="50dp"
+                                                  
         />
 </androidx.constraintlayout.widget.ConstraintLayout>
